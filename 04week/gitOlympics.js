@@ -9,3 +9,7 @@ const printListOfOlympians = (arr) => {
 const testArray = ['Abhi','Kelen','Biru','Alex','Deba'];
 
 printListOfOlympians(testArray);
+
+const testArray1 = ['Rob','John','Ed','Jack','Paul'];
+
+printListOfOlympians(testArray1);
