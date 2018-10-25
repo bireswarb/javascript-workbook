@@ -1,7 +1,11 @@
 use strict;
 
 const printListOfOlympians = (arr) => {
-    arr.forEach((index,item) => {
+    arr.forEach((item,index) => {
         console.log(item);
     });
 }
+
+const testArray = ['Abhi','Kelen','Biru','Alex','Deba'];
+
+printListOfOlympians(testArray);
